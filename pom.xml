@@ -29,7 +29,7 @@ THE SOFTWARE.
     <groupId>org.jenkins-ci</groupId>
     <artifactId>jenkins</artifactId>
     <version>1.83</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.jenkins-ci.main</groupId>
@@ -99,7 +99,7 @@ THE SOFTWARE.
     <spotbugs.excludeFilterFile>${maven.multiModuleProjectDirectory}/src/spotbugs/spotbugs-excludes.xml</spotbugs.excludeFilterFile>
 
     <access-modifier.version>1.27</access-modifier.version>
-    <bridge-method-injector.version>1.23</bridge-method-injector.version>
+    <bridge-method-injector.version>1.24</bridge-method-injector.version>
     <mockito.version>4.6.1</mockito.version>
     <spotless.version>2.24.0</spotless.version>
   </properties>
@@ -378,7 +378,7 @@ THE SOFTWARE.
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -426,13 +426,13 @@ THE SOFTWARE.
           <version>${spotless.version}</version>
           <configuration>
             <java>
-              <endWithNewline />
-              <importOrder />
+              <endWithNewline/>
+              <importOrder/>
               <indent>
                 <spaces>true</spaces>
               </indent>
-              <removeUnusedImports />
-              <trimTrailingWhitespace />
+              <removeUnusedImports/>
+              <trimTrailingWhitespace/>
             </java>
             <pom>
               <sortPom>
@@ -626,8 +626,8 @@ THE SOFTWARE.
             <configuration>
               <mappingId>customizable</mappingId>
               <configurators>
-                <configurator id="org.maven.ide.eclipse.jdt.javaConfigurator" />
-                <configurator id="org.maven.ide.eclipse.plexus.annotations.plexusConfigurator" />
+                <configurator id="org.maven.ide.eclipse.jdt.javaConfigurator"/>
+                <configurator id="org.maven.ide.eclipse.plexus.annotations.plexusConfigurator"/>
               </configurators>
               <mojoExecutions>
                 <mojoExecution>org.apache.maven.plugins:maven-resources-plugin::</mojoExecution>
